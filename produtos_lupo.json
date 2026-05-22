@@ -1,0 +1,115 @@
+{
+  "loja": "Lupo Sport",
+  "catalogo": {
+    "high_ticket": {
+      "descricao": "Roupas esportivas tecnológicas com foco em performance e conforto",
+      "categorias": {
+        "masculino": [
+          {
+            "id": "M001",
+            "nome": "Camiseta Dry-Fit Seamless Masculina",
+            "tecnologia": "Seamless / Sem Costura",
+            "modalidades": ["Treino", "Corrida", "Casual"],
+            "beneficio": "Evita o atrito com a pele e acelera a evaporação do suor."
+          },
+          {
+            "id": "M002",
+            "nome": "Bermuda de Compressão Emana Masculina",
+            "tecnologia": "Emana / Alta Compressão",
+            "modalidades": ["Corrida", "Ciclismo", "Beach Tennis"],
+            "beneficio": "Melhora a circulação sanguínea e reduz a fadiga muscular."
+          }
+        ],
+        "feminino": [
+          {
+            "id": "F001",
+            "nome": "Calça Legging Poliamida Max Feminina",
+            "tecnologia": "Seamless / Antimicrobiano",
+            "modalidades": ["Treino", "Estudio", "Crossfit"],
+            "beneficio": "Zero transparência, alta flexibilidade e proteção contra odores."
+          },
+          {
+            "id": "F002",
+            "nome": "Top Sport Sustentação Anatômica",
+            "tecnologia": "Dry / Antimicrobiano",
+            "modalidades": ["Treino", "Corrida", "Tennis"],
+            "beneficio": "Alta sustentação para movimentos de impacto e rápida secagem."
+          }
+        ]
+      }
+    },
+    "low_ticket": {
+      "descricao": "Meias tecnológicas e acessórios para cross-selling lógico",
+      "meias": {
+        "alturas_cano": ["Sapatilha", "Invisivel", "Curto", "Cano curto", "Cano médio", "Cano longo", "Cano extra longo"],
+        "linhas": ["Essencial", "Ultra fina", "Movimento", "Maximo", "Especialidades"],
+        "produtos": [
+          {
+            "id": "ME001",
+            "nome": "Meia Lupo Sport Performance Cano Médio",
+            "linha": "Maximo",
+            "cano": "Cano médio",
+            "modalidades": ["Corrida", "Treino", "Trilha"],
+            "beneficio": "Tecnologia Dry com amortecimento anatômico que evita bolhas."
+          },
+          {
+            "id": "ME002",
+            "nome": "Meia Sapatilha Antiderrapante Lupo",
+            "linha": "Especialidades",
+            "cano": "Sapatilha",
+            "modalidades": ["Estudio"],
+            "beneficio": "Grip de silicone na sola para máxima estabilidade no Pilates ou Yoga."
+          },
+          {
+            "id": "ME003",
+            "nome": "Meião de Compressão Lupo Sport",
+            "linha": "Especialidades",
+            "cano": "Cano longo",
+            "modalidades": ["Ciclismo", "Futebol", "Corrida"],
+            "beneficio": "Compressão graduada que acelera a recuperação muscular do atleta."
+          },
+          {
+            "id": "ME004",
+            "nome": "Meia Lupo Sport Casual Invisível",
+            "linha": "Essencial",
+            "cano": "Invisivel",
+            "modalidades": ["Casual"],
+            "beneficio": "Conforto invisível para o uso diário com calçados baixos."
+          }
+        ]
+      },
+      "acessorios": [
+        {
+          "id": "AC001",
+          "nome": "Manguito Lupo Sport Proteção UV",
+          "modalidades": ["Ciclismo", "Corrida", "Beach Tennis"],
+          "beneficio": "Proteção contra raios solares e regulação térmica dos braços."
+        },
+        {
+          "id": "AC002",
+          "nome": "Viseira Lupo Sport Ajustável",
+          "modalidades": ["Beach Tennis", "Tennis", "Corrida"],
+          "beneficio": "Protege os olhos do sol e retém o suor da testa de forma leve."
+        },
+        {
+          "id": "AC003",
+          "nome": "Pochete de Corrida Slim Lupo",
+          "modalidades": ["Corrida", "Trilha", "Casual"],
+          "beneficio": "Transporte seguro de chaves e celular sem balançar durante o esporte."
+        },
+        {
+          "id": "AC004",
+          "nome": "Tapete de Yoga / Pilates Lupo",
+          "modalidades": ["Estudio"],
+          "beneficio": "Superfície texturizada antiderrapante para total segurança nas posturas."
+        },
+        {
+          "id": "AC005",
+          "nome": "Garrafa Térmica Inox Lupo Sport",
+          "modalidades": ["Treino", "Corrida", "Beach Tennis", "Estudio", "Ciclismo", "Futebol", "Tennis", "Casual", "Trilha"],
+          "beneficio": "Mantém a hidratação gelada por até 24 horas em qualquer modalidade."
+        }
+      ]
+    }
+  }
+}
