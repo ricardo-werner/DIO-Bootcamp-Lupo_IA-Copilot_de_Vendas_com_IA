@@ -6,35 +6,160 @@
       "categorias": {
         "masculino": [
           {
-            "id": "M001",
-            "nome": "Camiseta Dry-Fit Seamless Masculina",
-            "tecnologia": "Seamless / Sem Costura",
-            "modalidades": ["Treino", "Corrida", "Casual"],
-            "beneficio": "Evita o atrito com a pele e acelera a evaporação do suor."
-          },
-          {
-            "id": "M002",
-            "nome": "Bermuda de Compressão Emana Masculina",
-            "tecnologia": "Emana / Alta Compressão",
-            "modalidades": ["Corrida", "Ciclismo", "Beach Tennis"],
-            "beneficio": "Melhora a circulação sanguínea e reduz a fadiga muscular."
-          }
+            "id":"M001",
+              "nome": "Camiseta Basic Masculina Raglan",
+              "categoria": "masculino",
+              "preco": 80.90,
+              "moeda": "BRL",
+              "descricao_tecnica": ["Poliéster 100%, Dry-fit, proteção UV"],
+              "tecnologia":"Seamless",
+              "modalidades": ["Treino", "Corrida" ,"Casual"],
+              "tamanhos": ["P","M","G", "GG", "XG", "XXG"],
+              "cores": ["Preto" ,"Cinza", "Azul Marinho", "Branco"],
+              "beneficio": "Evita o atrito com a pele e acelera a evaporação do suor, permitindo liberdade de movimento.",
+              "imagens": ["https://shre.ink/71rv"],
+              "relacionados": {"up_sell":["M002"],"cross_sell":["M003","ACC005"]}
+            },
+            {
+            "id":"M002",
+              "nome": "Camiseta LSport motion",
+              "categoria": "masculino",
+              "preco": 85.90,
+              "moeda": "BRL",
+              "descricao_tecnica": ["Poliéster 98%, Elastano 2%, Seamless, secagem r,ápida"],
+              "tecnologia": "Seamless",
+              "modalidades": ["Treino", "Corrida"],
+              "tamanhos" :["P","M","G", "GG"],
+              "cores": ["Preto", "Cinza", "Azul Marinho", "Verde Limão"],
+              "beneficio": "tipo t-shirt com modelagem reta, tecido fresco, gola redonda e manga curta ideal para o dia a dia. ",
+              "imagens": ["https://shre.ink/7186"],
+              "relacionados": {"up_sell":["M003"],"cross_sell":["ME004","AC005"]}
+            },
+            {
+            "id":"M003",
+              "nome":"Shorts Run LSport",
+              "categoria":"masculino",
+              "preco":113.90,
+              "moeda":"BRL",
+              "descricao_tecnica":"Poliéster 100%; Detalhes refletivos",
+              "tecnologia":"Seamless",
+              "modalidades":["Treino","Corrida"],
+              "tamanhos":["P","M","G", "GG", "XG", "XXG"],
+              "cores":["Preto","Cinza", "Azul Marinho", "Branco"],
+              "beneficio": "Forro interno proporciona maior conforto.",
+              "imagens":[" https://www.lsport.com.br/short-run-lsport/p"],
+              "relacionados":{"up_sell":["M002"],"cross_sell":["ME003","ACC005"]}
+            },
+            {
+            "id":"M004",
+              "nome":"Bermuda Masculina Shorts Canelada 7 Pockets",
+              "categoria":"masculino",
+              "preco":243.90,
+              "moeda":"BRL",
+              "descricao_tecnica":"Poliamída 75, Elastano 25% Detalhes refletivos, cós anatômico e Bolso laterial",
+              "tecnologia":"Seamless",
+              "modalidades":["Treino","Corrida"],
+              "tamanhos":["P","M","G", "GG"],
+              "cores":["Preto","Cinza", "Azul Marinho"],
+              "beneficio": "ótima compressão e elástico interno com cós anatômico, proporcionando segurança aos movimentos e 5 bolsos laterais.",
+              "imagens":[" https://shre.ink/71rE"],
+              "relacionados":{"up_sell":["M001"],"cross_sell":["ME001","ACC005"]}
+            },
+            {
+            "id":"M005",
+              "nome": "Jaqueta Masculina LSport RunStorm",
+              "categoria": "masculino",
+              "preco": 369.90,
+              "moeda": "BRL",
+              "descricao_tecnica": ["Poliamida 90%, Elastano 10%, “Forro: Poliéster 100%”, “Seamless”,  secagem rápida"],
+              "tecnologia": "Seamless",
+              "modalidades": ["Treino","Corrida","Estudio"],
+              "tamanhos":["P","M","G", "GG"],
+              "cores":["Marrom"],
+              "beneficio": "Leve, prática e funcional, com zíper central e capuz, a sua construção selada ajuda a bloquear e repelir água, o uqe proporciona um corpo seco e confortável em diferentes condições climáticas.",
+              "imagens":["https://shre.ink/71rP"],
+              "relacionados":{"up_sell":["M004"],"cross_sell":["ME004","AC005"]}
+            }
+
         ],
         "feminino": [
           {
-            "id": "F001",
-            "nome": "Calça Legging Poliamida Max Feminina",
-            "tecnologia": "Seamless / Antimicrobiano",
-            "modalidades": ["Treino", "Estudio", "Crossfit"],
-            "beneficio": "Zero transparência, alta flexibilidade e proteção contra odores."
+          "id":"F001",
+            "nome": "T-Shirt Poliamida Básica Feminina",
+            "categoria": "feminino",
+            "preco":124.90,
+            "moeda": "BRL",
+            "descricao_tecnica": ["Poliamida 100%”, “Seamless”, “secagem rápida"],
+            "tecnologia": "Amoni Soul Eco (fio poliamida 6.6 biodegradável) e Proteção UV 50+",
+            "modalidades": ["Treino","Corrida","Estúdio"],
+            "tamanhos": ["P","M","G", "GG", "XG", "XXG"],
+            "cores": ["Marrom", "Chumbo", "Cinza", "Salmão", "Verde"],
+            "beneficio": "Básica de corte reto, manga curta e gola redonda, com proteção contra raios UV +50. Produzida com fios de poliamida biodegradáveis, que levam menos de 3 anos para se decompor.",
+            "imagens": ["https://shre.ink/718k"],
+            "relacionados": {"up_sell":["F002"],"cross_sell":["ME004","AC003"]}
           },
           {
-            "id": "F002",
-            "nome": "Top Sport Sustentação Anatômica",
-            "tecnologia": "Dry / Antimicrobiano",
-            "modalidades": ["Treino", "Corrida", "Tennis"],
-            "beneficio": "Alta sustentação para movimentos de impacto e rápida secagem."
+          "id":"F002",
+            "nome": "Regata Poliamida Basic Run",
+            "categoria": "feminino",
+            "preco":87.90,
+            "moeda": "BRL",
+            "descricao_tecnica": ["Poliamida 100%”, “Seamless”, “secagem rápida"],
+            "tecnologia": "Seamless",
+            "modalidades": ["Treino", "Corrida", "Beach”, “Tennis”, “Estúdio"],
+            "tamanhos": ["P","M","G", "GG", "XG"],
+            "cores": ["Vinho", "Chumbo", "Cinza", "Vermelho", "Verde"],
+            "beneficio": "Básica de corte reto, decote redondo na frente e nadador nas costas, traz uma sensação de frescor durante a atividade física.",
+            "imagens": ["https://shre.ink/71gV"],
+            "relacionados": {"up_sell":["F002"],"cross_sell":["ME004","AC003"]}
+          },
+          {
+          "id":"F003",
+            "nome": "Top Up Control",
+            "categoria": "feminino",
+            "preco":122.90,
+            "moeda": "BRL",
+            "descricao_tecnica": ["Poliamida 93%”, “Elastano 7%”, “Seamless”, “secagem rápida"],
+            "tecnologia": ["Seamless Dry", "Antiviral e Bacteriostático"],
+            "modalidades": ["Treino", "Corrida", "Beach”, “Tennis”, “Estúdio"],
+            "tamanhos": ["P","M","G", "GG", "XG"],
+            "cores": ["Vinho", "Chumbo", "Vermelho", "Verde"],
+            "beneficio": "top sem costuras com decote nadador, permite maior liberdade de movimento e pontos de sustentação para melhor conforto durante a atividade física.",
+            "imagens": ["https://shre.ink/71bF"],
+            "relacionados": {"up_sell":["F002"],"cross_sell":["ME002","AC004"]}
+          },
+
+          {
+          "id":"F004",
+            "nome": "Top Lupo AF energy Raschel",
+            "categoria": "feminino",
+            "preco":106.90,
+            "moeda": "BRL",
+            "descricao_tecnica": "Poliamida 92%, Elastano 8%, Seamless; secagem rápida",
+            "tecnologia": ["Raschel", "Seamless", "Antimicrobial"],
+            "modalidades": ["Treino", "Estúdio"],
+            "tamanhos": ["P","M","G", "GG"],
+            "cores": ["Vinho", "Preto", "Azul Marinho", "Verde"],
+            "beneficio": "top sem costuras produzido com tecnologia Raschel, com micro furos para maior respirabilidade e secagem rápida do suor, com tecnologia antimicrobiana que eliminam as bactérias que causam o suor.",
+            "imagens": ["https://shre.ink/71bF"],
+            "relacionados": {"up_sell":["F005"],"cross_sell":["ME002","AC004"]}
+          },
+          {
+          "id":"F006",
+            "nome": "Jaqueta LSport AF Windbreak",
+            "categoria": "feminino",
+            "preco":357.90,
+            "moeda": "BRL",
+            "descricao_tecnica": "Poliéster 100, Seamless; secagem rápida",
+            "tecnologia": ["Seamless Dry"],
+            "modalidades": ["Treino", "Corrida", "Beach", "Tennis", "Estúdio"],
+            "tamanhos": ["P","M","G", "GG"],
+            "cores": ["Preto", "Azul Marinho", "Verde", "Cinza", "Chumbo"],
+            "beneficio": "Modelo corta vento em tecido leve e capuz embutido, com puxador ajustável e zíper selado, propondo versatilidade em atividades físicas ou outdoor.",
+            "imagens": ["https://shre.ink/71x9"],
+            "relacionados": {"up_sell":["F005"],"cross_sell":["ME002","AC004"]}
           }
+
         ]
       }
     },
@@ -73,7 +198,16 @@
             "nome": "Meia Lupo Sport Casual Invisível",
             "linha": "Essencial",
             "cano": "Invisivel",
-            "modalidades": ["Casual"],
+            "modalidades": [
+              "Treino",
+              "Corrida",
+              "Beach Tennis",
+              "Estudio",
+              "Ciclismo",
+              "Futebol",
+              "Tennis",
+              "Trilha"
+            ],
             "beneficio": "Conforto invisível para o uso diário com calçados baixos."
           }
         ]
@@ -94,7 +228,7 @@
         {
           "id": "AC003",
           "nome": "Pochete de Corrida Slim Lupo",
-          "modalidades": ["Corrida", "Trilha", "Casual"],
+          "modalidades": ["Corrida", "Trilha", "Ciclismo"],
           "beneficio": "Transporte seguro de chaves e celular sem balançar durante o esporte."
         },
         {
@@ -106,7 +240,7 @@
         {
           "id": "AC005",
           "nome": "Garrafa Térmica Inox Lupo Sport",
-          "modalidades": ["Treino", "Corrida", "Beach Tennis", "Estudio", "Ciclismo", "Futebol", "Tennis", "Casual", "Trilha"],
+          "modalidades": ["Treino", "Corrida", "Beach Tennis", "Estudio", "Ciclismo", "Futebol", "Tennis", "Trilha"],
           "beneficio": "Mantém a hidratação gelada por até 24 horas em qualquer modalidade."
         }
       ]
