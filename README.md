@@ -162,7 +162,14 @@ A implementação deste repositório visa impactar diretamente as métricas de n
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido como parte de entrega acadêmica para o curso de Inteligência Artificial e Automação Comercial. Sinta-se livre para clonar e adaptar para o seu modelo de negócio.
+_Projeto desenvolvido para o Desafio Final do Bootcamp-Lupo_IA da DIO._
+
+## 👨‍💻 Autor
+
+**Ricardo Werner**  
+Desenvolvedor Front-end com foco em acessibilidade, UX e inclusão digital. 
+</br>
+Apaixonado por mergulho, fotografia, tecnologia e inovação.
 
 
 
