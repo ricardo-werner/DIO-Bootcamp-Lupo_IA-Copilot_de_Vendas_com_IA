@@ -19,7 +19,7 @@ O projeto é impulsionado pela engine de Inteligência Artificial **F.I.O.S. (Fl
 
 ## 🎯 O Problema vs. A Solução
 
-* **O Problema:** Vendedores em loja física enfrentam dificuldades para lembrar de todas as especificações técnicas de tecidos (*Seamless, Emana, Sanitized*) e frequentemente esquecem de oferecer itens complementares (como meias e acessórios), reduzindo o ticket médio da loja.
+* **O Problema:** Vendedores em loja física enfrentam dificuldades para lembrar de todas as especificações técnicas de tecidos (*Seamless, Dry-fit, Proteção UV*) e frequentemente esquecem de oferecer itens complementares (como meias e acessórios), reduzindo o ticket médio da loja.
 * **A Solução:** Um chatbot estruturado que transforma qualquer vendedor em um consultor de alta performance em menos de 10 segundos, automatizando a estratégia de *Upsell* e *Cross-sell* com base no esporte do cliente.
 
 ---
@@ -39,8 +39,6 @@ A **F.I.O.S.** é o cérebro do projeto. O acrônimo resume os pilares de engenh
 O sistema opera simulando caixas de mensagens e cliques rápidos no WhatsApp ou Tablet corporativo do vendedor. Abaixo está a simulação exata da jornada de atendimento:
 
 ### 📱 Tela 1: Inicialização do Sistema
-O vendedor abre o chat com a inteligência F.I.O.S. para mapear o perfil do cliente.
-
 ```text
 [F.I.O.S.]: Sistema Lupo Conecta Ativado! 🌟
 Escolha uma das opções abaixo para iniciar o atendimento: Masculino Feminino Unissex
@@ -49,8 +47,6 @@ Escolha uma das opções abaixo para iniciar o atendimento: Masculino Feminino U
 ```
 
 ### 📱 Tela 2: Filtro de Modalidade Esportiva
-A F.I.O.S. avança o menu automaticamente após o primeiro clique do vendedor.
-
 ```text
 [F.I.O.S.]: Ótimo. Selecione a modalidade esportiva do cliente: Corrida/Trilha Academia/Crossfit Beach Tennis/Tennis Casual/Dia a dia
 
@@ -58,8 +54,6 @@ A F.I.O.S. avança o menu automaticamente após o primeiro clique do vendedor.
 ```
 
 ### 📱 Tela 3: Definição de Intensidade e Foco
-O último filtro mapeia o nível do atleta para acionar o motor de recomendação.
-
 ```text
 [F.I.O.S.]: Perfeito. Qual é o foco ou nível de intensidade do atleta? Iniciante/Conforto Avançado/Alta Performance
 
@@ -67,40 +61,34 @@ O último filtro mapeia o nível do atleta para acionar o motor de recomendaçã
 ```
 
 ### 📱 Tela 4: Resposta Inteligente Baseada em Dados
-Ao receber a última opção, a engine F.I.O.S. cruza os dados, consulta a base de produtos e entrega o script de balcão mastigado para o vendedor aplicar com o cliente em loja:
-
 ```text
 🤖 [LUPO CONECTA - RECOMENDAÇÃO INTELIGENTE]
 
 🚨 DIAGNÓSTICO DO ATLETA:
-Cliente maratonista ou corredor de alto rendimento. Necessita de alta dissipação de calor, zero atrito mecânico para evitar assaduras e proteção extrema contra bolhas nos treinos longos.
+Cliente com foco em Corrida Avançada sob condições variadas. Necessita de peças leves, gerenciamento térmico eficiente, bloqueio de vento e proteção extra para o calcanhar para evitar bolhas.
 
 👕 OFERTA PRINCIPAL (High Ticket):
-Bermuda de Compressão Emana Masculina (ID: M002). A tecnologia Emana estimula a microcirculação sanguínea, retardando a fadiga muscular e aumentando o rendimento nas passadas.
+Jaqueta Masculina LSport RunStorm (ID: M005 - R$ 369,90). Tecido tecnológico selado com Poliamida e Elastano que ajuda a bloquear e repelir a água, mantendo o corpo seco e protegido.
 
 🧦 CROSS-SELL INTELIGENTE (Low Ticket):
-Meia Lupo Sport Performance Cano Médio (ID: ME001) da linha Máximo. Possui amortecimento anatômico e tecnologia Dry, mantendo o pé seco e evitando as bolhas da fricção.
+Meia Lupo Sport Performance Cano Médio (ID: ME001). Linha Máximo com amortecimento anatômico e tecnologia Dry que evita a formação de bolhas na corrida de longa distância.
 
 🗣️ SCRIPT DE BALCÃO (O que o vendedor deve falar):
-"Olha, como o seu foco é maratona e alta performance, eu recomendo fortemente você levar a nossa Bermuda de Compressão com tecnologia Emana. Ela melhora a circulação e adia aquela sensação de cansaço na musculatura durante os quilômetros finais. E para fazer o par perfeito, os corredores levam essa meia da linha Máximo, que tem um tecido respirável que não deixa o pé escorregar e evita completamente as bolhas."
+"Olha, como o seu foco é corrida e alta performance, eu recomendo fortemente você levar a nossa Jaqueta RunStorm da Lupo. Ela é ultra leve e tem a construção selada que bloqueia o vento e repele a água se o tempo mudar. E para fazer a combinação perfeita de rendimento, os corredores levam essa nossa meia de alta performance com amortecimento anatômico, que mantém o pé seco e impede completamente que você sofra com bolhas nos treinos."
 ```
 
 ---
 
-## 🛡️ Matriz de Contorno de Objeções da F.I.O.S.
+## 🛡️ Matriz de Contorno de Objeções da MVP (Fase 1)
 
-A F.I.O.S. também mune o vendedor com argumentos rápidos para rebater as principais hesitações dos clientes focando em **Valor** e não em **Preço**:
-
-* **Objeção de Preço (Roupas):** Foco na tecnologia *Seamless* (Sem Costura). Justifica o investimento pela alta durabilidade e ausência de assaduras no treino.
-* **Objeção de Preço (Meias):** Foco na tecnologia *Dry* (Poliamida Premium). Justifica mostrando que o algodão causa bolhas e retém suor, enquanto a poliamida protege o pé.
-* **Objeção de Mau Odor:** Foco na tecnologia *Sanitized* (Antimicrobiano). Justifica provando que o tecido impede a proliferação das bactérias que causam o cheiro ruim de suor.
+A F.I.O.S. mune o vendedor com argumentos rápidos no MVP para rebater hesitações com foco em **Valor** e não em **Preço**:
+* **Objeção de Preço (Roupas):** Foco na tecnologia *Seamless* (Sem Costura). Justifica o custo pela altíssima durabilidade de fábrica.
+* **Objeção de Preço (Meias):** Foco na poliamida premium da tecnologia *Dry-fit*. Demonstra que o algodão retém suor e gera atrito/bolhas.
+* **Objeção de Odor:** Foco no tratamento *Antimicrobial/Bacteriostático*. Garante a eliminação das bactérias causadoras do mau cheiro crônico de treinos pesados.
 
 ---
 
-## 💾 Base de Dados de Amostra (`produtos_lupo.json`)
-
-Esta é a estrutura de dados que a inteligência **F.I.O.S.** consome nativamente para cruzar os filtros e gerar as respostas:
-
+## 💾 Estrutura do Banco de Dados de Amostra (`produtos_lupo.json`)
 ```json
 {
   "loja": "Lupo Sport",
@@ -110,40 +98,22 @@ Esta é a estrutura de dados que a inteligência **F.I.O.S.** consome nativament
         "masculino": [
           {
             "id": "M001",
-            "nome": "Camiseta Dry-Fit Seamless Masculina",
-            "tecnologia": "Seamless",
-            "modalidades": ["Treino", "Corrida"],
-            "beneficio": "Evita o atrito com a pele e acelera a evaporação do suor."
-          },
-          {
-            "id": "M002",
-            "nome": "Bermuda de Compressão Emana Masculina",
-            "tecnologia": "Emana / Alta Compressão",
-            "modalidades": ["Corrida", "Ciclismo"],
-            "beneficio": "Melhora a circulação sanguínea e reduz a fadiga muscular."
+            "nome": "Camiseta Basic Masculina Raglan",
+            "preco": 80.9,
+            "moeda": "BRL",
+            "descricao_tecnica": ["Poliéster 100%", "Dry-fit", "Proteção UV"],
+            "tecnologia": ["Seamless"],
+            "modalidades": ["Treino", "Corrida", "Casual"],
+            "tamanhos": ["P", "M", "G", "GG", "XG", "XXG"],
+            "cores": ["Preto", "Cinza", "Azul Marinho", "Branco"],
+            "beneficio": "Evita o atrito com a pele e acelera a evaporação do suor.",
+            "relacionados": {
+              "up_sell": ["M002"],
+              "cross_sell": ["M003", "AC005"]
+            }
           }
         ]
       }
-    },
-    "low_ticket": {
-      "meias": [
-        {
-          "id": "ME001",
-          "nome": "Meia Lupo Sport Performance Cano Médio",
-          "linha": "Maximo",
-          "cano": "Cano médio",
-          "modalidades": ["Corrida", "Treino"],
-          "beneficio": "Tecnologia Dry com amortecimento anatômico que evita bolhas."
-        }
-      ],
-      "acessorios": [
-        {
-          "id": "AC005",
-          "nome": "Garrafa Térmica Inox Lupo Sport",
-          "modalidades": ["Treino", "Corrida", "Beach Tennis"],
-          "beneficio": "Mantém a hidratação gelada por até 24 horas."
-        }
-      ]
     }
   }
 }
@@ -151,12 +121,19 @@ Esta é a estrutura de dados que a inteligência **F.I.O.S.** consome nativament
 
 ---
 
-## 📊 Principais Indicadores de Sucesso (KPIs)
+## 🚀 Evolução Futura e Próximos Passos (Fase 2 - Roadmap)
+Como mapeado no planejamento estratégico de produto, a Fase 2 sairá do escopo estático de preço para abraçar a complexidade comportamental e psicológica do varejo físico através de novas matrizes JSON de objeções:
+1. **Mapeamento de Ajuste Fit:** Modelos para reverter hesitações anatômicas sobre compressão ou transparência de leggings/bermudas no agachamento.
+2. **Superação de Barreiras de Marca:** Scripts de conversão para clientes com lealdade estabelecida a concorrentes esportivos globais.
+3. **Logística Omnichannel:** Soluções de contorno de falta de estoque local conectando vendas com envio expresso via centro de distribuição central.
+4. **Substituição de Estilo:** Lógica algorítmica para recomendar novas tonalidades e cortes funcionais mantendo o mesmo ganho de rendimento original do atleta.
 
-A implementação deste repositório visa impactar diretamente as métricas de negócio do varejo:
+---
+
+## 📊 Principais Indicadores de Sucesso (KPIs)
 * **Aumento de PA (Peças por Atendimento):** Meta de +25% de anexação de meias/acessórios.
 * **Aumento do Ticket Médio:** Elevação do valor total gasto por cliente na loja física.
-* **Redução do TTM (Time-to-Market de Treinamento):** Integração e rampa de novos vendedores de forma instantânea.
+* **Redução do Tempo de Onboarding:** Capacitação instantânea de novos vendedores sem treinamentos de tecelagem longos.
 
 ---
 
