@@ -9,8 +9,8 @@ Desenvolvimento um Assistente de Vendas com IA para Atendimento em Loja, projeta
 
 <table align="center">
   <tr>
-    <td align="center"><img src="./src/to_readme/lupo_intelligent_fabric.png" alt="Tecido Inteligente Lupo" width="400"></td>
-    <td align="center"><img src="./src/to_readme/lupo_conecta.PNG" alt="Interface do Lupo Conecta" width="400"></td>
+    <td align="center"><img src="./src/to_readme/lupo_intelligent_fabric.png" alt="Tecido Inteligente Lupo" width="500"></td>
+    <td align="center"><img src="./src/to_readme/lupo_conecta.PNG" alt="Interface do Lupo Conecta" width="500"></td>
   </tr>
 </table>
 
@@ -87,21 +87,21 @@ O sistema opera simulando caixas de mensagens e cliques rápidos no WhatsApp ou 
 ### 📱 Tela 1: Inicialização do Sistema
 ```text
 [F.I.O.S.]: Sistema Lupo Conecta Ativado! 🌟
-Escolha uma das opções abaixo para iniciar o atendimento: Masculino Feminino Unissex
+Escolha uma das opções abaixo para iniciar o atendimento: Masculino - Feminino - Unissex
 
 [Vendedor]: 1
 ```
 
 ### 📱 Tela 2: Filtro de Modalidade Esportiva
 ```text
-[F.I.O.S.]: Ótimo. Selecione a modalidade esportiva do cliente: Corrida/Trilha Academia/Crossfit Beach Tennis/Tennis Casual/Dia a dia
+[F.I.O.S.]: Ótimo. Selecione a modalidade esportiva do cliente: Corrida | Trilha | Academia | Crossfit | Beach_Tennis | Tenis | Casual | Dia a dia
 
 [Vendedor]: 1
 ```
 
 ### 📱 Tela 3: Definição de Intensidade e Foco
 ```text
-[F.I.O.S.]: Perfeito. Qual é o foco ou nível de intensidade do atleta? Iniciante/Conforto Avançado/Alta Performance
+[F.I.O.S.]: Perfeito. Qual é o foco ou nível de intensidade do atleta? Iniciante | Conforto | Avançado | Alta Performance
 
 [Vendedor]: 2
 ```
@@ -191,8 +191,6 @@ _Projeto desenvolvido para o Desafio Final do Bootcamp-Lupo_IA da DIO._
 
 **Ricardo Werner**  
 Desenvolvedor Front-end com foco em acessibilidade, UX e inclusão digital. 
-</br>
-Apaixonado por mergulho, fotografia, tecnologia e inovação.
 
 
 
