@@ -216,4 +216,4 @@ _Projeto desenvolvido para o Desafio Final do Bootcamp-Lupo_IA da DIO._
 ## 👨‍💻 Autor
 
 **Ricardo Werner**  
-Desenvolvedor Front-end com foco em acessibilidade, UX e inclusão digital.
+Desenvolvedor Front-end com foco em acessibilidade e inclusão digital, UX e IA aplicada a negócios
