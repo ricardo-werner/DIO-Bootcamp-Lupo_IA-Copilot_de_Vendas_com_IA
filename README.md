@@ -4,9 +4,6 @@ Desenvolvimento um Assistente de Vendas com IA para Atendimento em Loja, projeta
 
 # 🤖 Lupo Conecta – Copiloto de Vendas Assistidas por IA
 
-<p align="center">
-  
-</p>
 
 <table align="center">
   <tr>
